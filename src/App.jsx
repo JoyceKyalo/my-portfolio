@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from "./components/Projects";
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -20,7 +21,7 @@ const App = () => {
       <Projects />
       <Skills />
       <Contact />
-      
+      <Footer />
       {/* Other sections will go here */}
     </div>
   );
