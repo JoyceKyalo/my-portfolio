@@ -1,16 +1,62 @@
+.custom-nav {
+  background-color: #000000;
+}
+
+.custom-navbar-brand {
+  color: #800080;
+  font-family: "Tourney", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.custom-nav-link {
+  color: #800080;
+  font-family: "Tourney", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .hero {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  background: rgb(2,0,36);
+background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(128,0,128,1) 95%);
   color: white;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero p {
+  font-size: 30px;
+}
+
+.my-work-button {
+  background-color: #000000;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.my-work-button:hover {
+  background-color: #ffffff;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 10px;
+  color: #800080;
 }
 
 .projects-section {
   padding: 80px 0;
-  background-color: #f8f9fa;
+  background: rgb(2,0,36);
+background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(128,0,128,1) 95%);
 }
 
 .skills {

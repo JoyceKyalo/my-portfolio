@@ -3,20 +3,21 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+    <Navbar className="custom-nav" variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home" className="custom-navbar-brand">Joyce Kyalo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#home" className="custom-nav-link">Home</Nav.Link>
+            <Nav.Link href="#about" className="custom-nav-link">About</Nav.Link>
+            <Nav.Link href="#projects" className="custom-nav-link">Projects</Nav.Link>
+            <Nav.Link href="#skills" className="custom-nav-link">Skills</Nav.Link>
+            <Nav.Link href="#contact" className="custom-nav-link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
+    
     </Navbar>
   );
 };

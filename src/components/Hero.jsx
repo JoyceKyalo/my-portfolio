@@ -7,11 +7,11 @@ const Hero = () => {
       <Container>
         <Row className="justify-content-center">
           <Col md={8}>
-            <h1 className="display-4">Hi, I'm JK 👩🏾‍💻</h1>
+            <h1>Hi, I'm JK 👩🏾‍💻</h1>
             <p className="lead">
-              I'm a passionate web developer with a strong interest in fullstack development and cybersecurity.
+              I'm a passionate web developer with a strong interest in front-end development and cybersecurity.
             </p>
-            <Button variant="primary" href="#projects" className="mt-3">
+            <Button href="#projects" className="my-work-button">
               View My Work
             </Button>
           </Col>
