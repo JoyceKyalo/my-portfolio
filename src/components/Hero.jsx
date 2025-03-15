@@ -9,11 +9,12 @@ const Hero = () => {
           <Col md={8}>
             <h1>Hi, I'm JK 👩🏾‍💻</h1>
             <p className="lead">
-              I'm a passionate web developer with a strong interest in front-end development and cybersecurity.
+              I'm a passionate web developer with a strong interest in front-end
+              development and cybersecurity.
             </p>
-            <Button href="#projects" className="my-work-button">
+            <a href="#projects">
               View My Work
-            </Button>
+            </a>
           </Col>
         </Row>
       </Container>
