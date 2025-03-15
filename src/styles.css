@@ -40,17 +40,21 @@
   font-size: 30px;
 }
 
-.my-work-button {
+.hero a {
+  display: inline-block; /* Ensures it behaves like a button */
+  padding: 10px 20px; /* Adds spacing */
   background-color: #000000;
-  border-color: #ffffff;
-  border-width: 1px;
+  border: 1px solid #ffffff;
   border-radius: 10px;
+  color: #ffffff; /* Ensures text is visible */
+  text-decoration: none; /* Removes underline */
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
 }
 
-.my-work-button:hover {
+.hero a:hover {
   background-color: #ffffff;
-  border-color: #000000;
-  border-width: 1px;
+  border: 1px solid #000000;
   border-radius: 10px;
   color: #800080;
 }
@@ -91,25 +95,30 @@
   color: #ffffff;
 }
 
-.my-project-button{
+.projects-section a{
+  display: inline-block; /* Ensures it behaves like a button */
+  padding: 10px 20px; /* Adds spacing */
   background-color: #000000;
-  border-color: #ffffff;
-  border-width: 1px;
+  border: 1px solid #ffffff;
   border-radius: 10px;
+  color: #ffffff; /* Ensures text is visible */
+  text-decoration: none; /* Removes underline */
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
 }
 
-.my-project-button:hover {
+.projects-section a:hover {
   background-color: #ffffff;
-  border-color: #000000;
-  border-width: 1px;
-  border-radius: 10px;
+  border: 1px solid #000000;
   color: #800080;
 }
 
 .skills {
-  padding: 50px 0;
+  padding: 70px 0px 70px 0px;
   background-color: #f4f4f4;
   text-align: center;
+  font-family: "Electrolize", sans-serif;
+  color: #000000;
 }
 
 .skills h2 {
@@ -133,25 +142,28 @@
 
 .skill h3 {
   font-size: 1.5rem;
-  color: #333;
 }
 
 .skill p {
   font-size: 1rem;
-  color: #666;
 }
-
-
 
 .contact {
   padding: 50px 20px;
   text-align: center;
-  background-color: #fff;
+  font-family: "Electrolize", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(128, 0, 128, 1) 95%
+  );
 }
 
 .contact h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .contact-form {
@@ -174,25 +186,32 @@
   height: 150px;
 }
 
+.contact-form ::placeholder{
+  color: #ffffff;
+}
+
 .contact-form button {
   padding: 10px 20px;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-form button:hover {
-  background-color: #0056b3;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #800080;
 }
 
 .footer {
-  background-color: #222;
-  color: white;
+  background-color: #000000;
   text-align: center;
+  color: #800080;
   padding: 20px 0;
+  font-family: "Electrolize", sans-serif;
 }
 
 .footer .social-links {
@@ -200,12 +219,14 @@
 }
 
 .footer .social-links a {
-  color: white;
+  color: #800080;
   margin: 0 15px;
   text-decoration: none;
   font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer .social-links a:hover {
   text-decoration: underline;
+  color: #ffffff;
 }
