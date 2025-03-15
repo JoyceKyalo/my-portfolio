@@ -5,17 +5,12 @@ const projects = [
   {
     title: "Weather App",
     description: "A weather forecasting app built with React and OpenWeather API.",
-    link: "https://your-weather-app-link.com",
-  },
-  {
-    title: "Cybersecurity Blog",
-    description: "A blog where I write about my journey in learning penetration testing.",
-    link: "https://your-cybersecurity-blog.com",
+    link: "https://effulgent-salmiakki-94337f.netlify.app/",
   },
   {
     title: "Portfolio Website",
     description: "The site you are currently viewing, built with React and Bootstrap!",
-    link: "#",
+    link: "https://joyce-kyalo-portfolio.netlify.app/",
   },
 ];
 
@@ -26,12 +21,12 @@ const Projects = () => {
         <h2 className="text-center mb-4">My Projects</h2>
         <Row>
           {projects.map((project, index) => (
-            <Col md={4} key={index} className="mb-4">
+            <Col md={6} key={index} className="mb-6">
               <Card>
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Button variant="primary" href={project.link} target="_blank">
+                  <Button href={project.link} className="my-project-button" target="_blank">
                     View Project
                   </Button>
                 </Card.Body>
