@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Education Gap Analysis Platform",
     description: "A full-stack team project that analyzes relationships between socioeconomic status and educational outcomes across counties. Built with a Flask backend and PostgreSQL database, using parameterized SQL queries to serve data to the frontend.",
-    link: "https://github.com/JoyceKyalo/education-gap-analysis"
+    link: "https://github.com/CS257-SoftwareDesign-W25/team-project-bug-busters.git"
   },
 
   {
