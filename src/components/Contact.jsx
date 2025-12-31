@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="contact py-5">
       <div className="container">
-        <h2 className="text-center mb-4">Contact JK</h2>
+        <h2 className="text-center mb-4">Contact Me</h2>
         <form
           name="contact"
           method="POST"
