@@ -8,6 +8,13 @@ const projects = [
       "A weather forecasting app built with React and OpenWeather API.",
     link: "https://effulgent-salmiakki-94337f.netlify.app/",
   },
+
+  {
+    title: "Education Gap Analysis Platform",
+    description: "A full-stack team project that analyzes relationships between socioeconomic status and educational outcomes across counties. Built with a Flask backend and PostgreSQL database, using parameterized SQL queries to serve data to the frontend.",
+    link: "https://github.com/JoyceKyalo/education-gap-analysis"
+  },
+
   {
     title: "Portfolio Website",
     description:
