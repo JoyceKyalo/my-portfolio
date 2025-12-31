@@ -30,7 +30,7 @@ const Projects = () => {
         <h2 className="text-center mb-4">My Projects</h2>
         <Row>
           {projects.map((project, index) => (
-            <Col md={6} key={index} className="mb-6">
+            <Col md={4} key={index} className="mb-6">
               <Card>
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
