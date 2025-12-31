@@ -11,7 +11,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Joyce Kyalo
+          Joyce (JK) Kyalo
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
